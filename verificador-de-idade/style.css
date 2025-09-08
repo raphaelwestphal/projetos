@@ -1,0 +1,87 @@
+body {
+    background: rgb(70, 142, 236);
+    font: 15px, arial;
+    
+}
+
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+.btn-voltar {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: rgb(70, 142, 236);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+#foto {
+    display: block;
+    margin: 15px auto 0 auto;
+    border-radius: 50%;
+    max-width: 250px;
+    height: auto;
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Responsividade */
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+    .titulo {
+        font-size: 28px;
+    }
+    .card {
+        width: 180px;
+        padding: 25px;
+    }
+}
+
+/* Celulares maiores */
+@media screen and (max-width: 480px) {
+    .titulo {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .card {
+        width: 90%;
+        max-width: 300px;
+        padding: 20px;
+    }
+}
+
+/* Celulares pequenos */
+@media screen and (max-width: 320px) {
+    .titulo {
+        font-size: 20px;
+    }
+    .card {
+        padding: 15px;
+    }
+}

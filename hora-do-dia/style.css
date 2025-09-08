@@ -45,34 +45,39 @@ footer {
 
 /* Tablets */
 @media screen and (max-width: 768px) {
-    .titulo {
-        font-size: 28px;
+    header h1 {
+        font-size: 26px;
     }
-    .card {
-        width: 180px;
-        padding: 25px;
+    section {
+        padding: 15px;
     }
 }
 
-/* Celulares maiores */
+/* Celulares */
 @media screen and (max-width: 480px) {
-    .titulo {
-        font-size: 24px;
-        margin-bottom: 30px;
+    body {
+        padding: 10px;
     }
-    .card {
-        width: 90%;
-        max-width: 300px;
-        padding: 20px;
+    header h1 {
+        font-size: 22px;
+    }
+    .btn-voltar {
+        width: 80%;
+        text-align: center;
+    }
+    
+    img {
+        max-width: 90%;
+    }
+
+    section {
+        max-width: 90%;
     }
 }
 
 /* Celulares pequenos */
 @media screen and (max-width: 320px) {
-    .titulo {
-        font-size: 20px;
-    }
-    .card {
-        padding: 15px;
+    header h1 {
+        font-size: 18px;
     }
 }
